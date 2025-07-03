@@ -1,3 +1,42 @@
 body {
-    background-color: #f8f9fa;
+  background: linear-gradient(to right top, #dee4ea, #f2f6fa);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+.card-body h2,
+.card-body h4 {
+  font-weight: 600;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+}
+
+.btn {
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-success:hover {
+  background-color: #198754cc;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #ced4da;
+}
+
+.footer {
+  background-color: #0d6efd;
 }
